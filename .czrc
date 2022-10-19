@@ -1,0 +1,60 @@
+{
+  "path": "commitizen-emoji",
+  "config": {
+    "commitizenEmoji": {
+      "conventionalFormat": true,
+      "selectedTypesByCode": [":memo:"],
+      "skipQuestions": ["scope", "body", "breakingBody", "issues"],
+      "types": [
+        {
+          "emoji": "✨",
+          "code": ":sparkles:",
+          "description": "Introduce new features.",
+          "name": "feat"
+        },
+        {
+          "emoji": "🐛",
+          "code": ":bug:",
+          "description": "Fix a bug.",
+          "name": "fix"
+        },
+        {
+          "emoji": "♻️",
+          "code": ":recycle:",
+          "description": "Refactor code.",
+          "name": "refactor"
+        },
+        {
+          "emoji": "🔧",
+          "code": ":wrench:",
+          "description": "Add or update configuration files.",
+          "name": "chore"
+        },
+        {
+          "emoji": "✅",
+          "code": ":white_check_mark:",
+          "description": "Add, update, or pass tests.",
+          "name": "test"
+        },
+        {
+          "emoji": "🚧",
+          "code": ":construction:",
+          "description": "Work in progress.",
+          "name": "wip"
+        },
+        {
+          "emoji": "🎨",
+          "code": ":art:",
+          "description": "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc).",
+          "name": "style"
+        },
+        {
+          "emoji": "⚡️",
+          "code": ":zap:",
+          "description": "A code change that improves performance.",
+          "name": "perf"
+        }
+     ]
+    }
+  }
+}
