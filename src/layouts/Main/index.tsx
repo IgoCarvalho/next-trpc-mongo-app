@@ -11,17 +11,17 @@ function Main({ children }: MainProps) {
   return (
     <Flex>
       <VStack bg="black" py="3" pt="8">
-        <Link href="/">
+        <Link passHref href="/">
           <Button p="4" variant="ghost" rounded="none">
             <Icon boxSize="7" as={HiOutlineViewGrid} />
           </Button>
         </Link>
-        <Link href="/profile">
+        <Link passHref href="/profile">
           <Button p="4" variant="ghost" rounded="none">
             <Icon boxSize="7" as={HiUser} />
           </Button>
         </Link>
-        <Link href="/new">
+        <Link passHref href="/new">
           <Button p="4" variant="ghost" rounded="none">
             <Icon boxSize="7" as={HiDocumentText} />
           </Button>
